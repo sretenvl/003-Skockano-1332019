@@ -1,0 +1,12 @@
+$(document).ready(function(){
+	$("#vracanjePocetak").hover(
+	function(){
+		$("#vracanjePocetak").css("opacity",0.9);
+	},
+	function(){
+		$("#vracanjePocetak").css("opacity",1);
+	});
+	$("#vracanjePocetak").click(function(){
+		$(window).scrollTop(0);
+	});
+});

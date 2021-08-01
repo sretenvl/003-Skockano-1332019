@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Skackano</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="autor" content= "Sreten Vladisavljević"/>
+	<meta name="description" content="Prodavnica puzli">
+	<link href="css/style.css" rel="stylesheet"/>
+	<link href="css/mediaquery.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+</head>
+<body>
+	<!--MENI-->
+	<div id = "gornjiM">
+		<div class = "clan" >
+			<a href = "index.html"><img id = "logo" src = "images/logo.png" alt = "logo"/></a>
+		</div>
+		<div class = "clan" id = "opcije">
+			<div class = "sadrzajClana" id = "meni"><i class="fas fa-bars fa-3x"></i></div>
+		</div>
+	</div>
+	<div id = "donjiM">
+		<nav>
+			<ul>
+				<li><a href = "proizvodi.html">PROIZVODI</a>
+				<li><a href = "dokumentacija.pdf">DOKUMENTACIJA</a>
+				<li><a href = "autor.html">AUTOR</a>
+			</ul>
+		</nav>
+	</div>
+	<!--MENI KRAJ-->
+
+	<!--GLAVNI DEO-->
+	<main>
+		<!--OGLASI-->
+		<div class = "glavniW">
+			<div id = "opisW">
+				<div id = "opis"></div>
+				<h1 id = "opisTekst">Skockano za Vas</h1>
+			</div>
+			<div id = "oglasiOmot">
+				<div class = "oglasW">
+					<div class = "oglas" id = "kocka">
+						<div class = "tekstOglasa">
+							<h2>Drvene puzle</h2>
+							<p>Pogledajte naše najnovije proizvode</p>
+							<div class = "dugme">
+								<a href = "proizvodi.html"><p>Pogledajte  <i class="fas fa-angle-right"></p></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class = "oglasW">
+					<div class = "oglas" id = "drvo">
+						<div class = "tekstOglasa">
+							<h2>Novo prodajno mesto</h2>
+							<p>Dodjite u našu novootvorenu prodavnicu u ulici Čarlija Čaplina</p>
+							<div class = "dugme">
+								<a href = "#kontaktW"><p>Pogledajte  <i class="fas fa-angle-right"></i></p></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--OGLASI KRAJ-->
+		<!--O NAMA-->
+		<div id = "namaW">
+			<div id = "oNama">
+				<img id = "slikaLokala" src = "images/pz6.jpg" alt = "slikaLokala"/>
+				<div id = "opisLokala">
+					<h3>"Skockano" je vaše najbolje mesto za nabavku slagalica</h3><br/>
+					<p>Najbolje mesto za slagalice svih vrsta nudimo veliki izbor slagalica i drugih proizvoda za sve uzraste i različitih nivoa težine.</p><br/>
+					<p>"Skockano" je novi distributer na tržištu mozgalica, slagalica, trik brava, itd. Mi smo tu da pomognemo entuzijastima, ali i novim fanovima da brzo i lako dođu do novih izazova u igrama i da razviju svoje sposobnosti rešavanja problema. Ovo je prvi korak u razvoju naše prodavnice, a u najskorije vreme ćemo da vam predstavimo i tangrame, žičane slagalice, razne metalne lagalice, klizeće blokove...</p><br/>
+					<p>Imamo razvijenu saradnju sa nekoliko mladjih umetnika čije radove ćemo predstaviti u obliku unikatnih slagalica.</p><br/>
+					<p>Naše slagalice su potpuno napravljene od recikliranog materijala.</p>
+				</div>
+			</div>
+		</div>
+		<!--KRAJ O NAMA-->
+		<!--KONTAKT-->
+		<div id = "kontaktW">
+			<div class = "forma">
+				<h1>LOKACIJA</h1>
+				<h2>BEOGRAD PALILULA</h2>
+				<ul>
+					<li>
+						<h3>Petra Petrovica 245</h3>
+						<p>Radno vreme:</p>
+						<p>9:30-21:00(radnim danima)</p>
+						<p>10:00-19:00(vikendom)</p>
+					</li>
+					<li>
+						<h3>Dargoslava Srejovića 65b</h3>
+						<p>Radno vreme:</p>
+						<p>9:30-21:00(radnim danima)</p>
+						<p>10:00-19:00(vikendom)</p>
+					</li>
+					<li>
+						<h3>Čarlija Čaplin 55</h3>
+						<p>Radno vreme:</p>
+						<p>9:30-21:00(radnim danima)</p>
+						<p>10:00-19:00(vikendom)</p>
+					</li>
+				</ul>
+			</div>
+			<div class = "forma">
+				<form onsubmit="provera()">
+					<h1>Kontaktirajte nas</h1>
+				   	<p class = "formaT">Vaše ime</p>
+				   	<input type="text" id="ime"/><br/>
+				   	<p class = "formaT">Vaš E-mail</p><br/>
+				   	<input type="text" id="email"/><br/> 
+				   	<p class = "formaT">Predmet</p>
+				   	<input type="text" id="predmet"/><br/>  
+				   	<p class = "formaT">Poruka</p>
+				   	<textarea cols="45" rows="5" id="poruka"></textarea><br/> 
+				   	<br />
+				   	<input type="button" id = "posalji" value="Posalji">
+				</form>
+			</div>
+		</div>
+		<!--KONTAKT KRAJ-->
+		<i id = "vracanjePocetak" class="fas fa-chevron-circle-up fa-5x"></i>
+	</main>
+	<!--GLAVNI DEO KRAJ-->
+	<!--FOOTER-->
+	<footer>
+		<div id = "footerW">
+			<div id = "footerLinkovi">
+				<a href = "index.html"><img id = "logoF" src = "images/logo.png" alt = "logoF"/></a>
+				<div id = linkovi>
+					<a href = "https://www.facebook.com"><i class="fab fa-facebook fa-4x"></i></a>
+					<a href = "https://www.youtube.com"><i class="fab fa-youtube fa-4x"></i></a>
+					<a href = "https://www.twitter.com"><i class="fab fa-twitter fa-4x"></i></a>
+					<a href = "https://www.instagram.com"><i class="fab fa-instagram fa-4x"></i></a>
+				</div>
+			</div>
+			<nav id = "footerMeni">
+				<ul id = "podF">
+					<li class = "podnasloviW">
+						<ul class = "podM">
+							<li class = "podN">MENI</li>
+							<a href = "proizvodi.html"><li>PROIZVODI</li></a>
+							<a href = "autor.html"><li>AUTOR</li></a>
+						</ul>
+					</li>
+					<li class = "podnasloviW">
+						<ul class = "podM">
+							<li class = "podN">SKOLA</li>
+							<a href = "sitemap.xml"><li>SITEMAP</li></a>
+							<a href = "dokumentacija.pdf"><li>DOKUMENTACIJA</li></a>
+						</ul>
+					</li>
+				</ul>
+			</nav>	
+		</div>
+		<div id = "cpRight">
+			<p>Copyright &copy Sreten Vladisavljevic 123/17</p>
+		</div>
+	</footer>
+	<!--KRAJ FOOTERA-->
+	<script type="text/javascript" src = "scripts/form.js"></script>
+	<script type="text/javascript" src = "scripts/formJQ.js"></script>
+	<script type="text/javascript" src = "scripts/efekti.js"></script>
+</body>
+</html>

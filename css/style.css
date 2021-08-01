@@ -1,0 +1,412 @@
+@font-face{
+	font-family: 'Rubik', sans-serif;
+	src: url("https://fonts.googleapis.com/css?family=Rubik");
+}
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Rubik', sans-serif;
+}
+html {
+	scroll-behavior: smooth;
+}
+ul{
+	list-style-type: none;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+h1{
+	font-size: 3rem;
+}
+h2{
+	font-size: 2.5rem;
+}
+h3{
+	font-size: 2rem;
+}
+/*MENI*/
+#gornjiM{
+	display: flex;
+	width: 100%;
+	height: 150px;
+	text-align: center;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+.clan{
+	display: flex;
+}
+#logo{
+	padding-left: 40px;
+	padding-top: 20px;
+	width: 400px;
+}
+#meni{
+	display: flex;
+}
+#opcije{
+	padding-top: 50px;
+	color: #A03021;
+}
+.sadrzajClana{
+	padding-right: 20px;
+}
+#donjiM{
+	display: flex;
+	opacity: 1;
+	width: 100%;
+	height: 70px;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 1.2rem;`
+	font-weight: bold;
+}
+nav{
+	width: 100%;
+	text-align: center;
+	display: block;
+	margin-bottom: 10px;
+}
+nav ul{
+	display: flex;
+	height: 100%;
+}
+nav ul li{
+	height: 20px;
+	padding: 15px 0px;
+	margin-left: 40px;
+}
+/*MENI KRAJ*/
+/*GLAVNI DEO SAJTA*/
+main{
+	width: 100%;
+}
+.glavniW{
+	width: 100%;
+	display: flex;
+	margin: 0 auto;
+}
+/*OGLASI*/
+#opisW{
+	flex: 1;
+	height: 600px;
+	color: white;
+	overflow: hidden;
+}
+#opis{
+	width: 100%;
+	height: 100%;
+	background-size: 100%;
+	background-image: url("../images/pz1.jpeg");
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+	text-align: center;
+}
+#opisTekst{
+	position: relative;
+	text-align: center;
+	top: -60%;
+	font-size: 5rem;
+	text-shadow: 2px 2px black;
+	z-index: 2;
+}
+#textOglasa{
+	position: absolute;
+	top: -100%;
+	text-shadow: 2px 2px white;
+	z-index: 2;
+}
+#oglasiOmot{
+	flex: 1;
+}
+.oglasW{
+	color: white;
+	height: 50%;
+	overflow: hidden;
+}
+.oglas{ 
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	display: flex;
+	justify-content: space-around;
+	
+}
+#kocka{
+	background-image: url("../images/pz7.jpg");
+	background-size: cover;
+  	background-position: center;
+  	background-size: 100%;
+}
+#drvo{
+	background-image: url("../images/pz9.jpg");
+	background-size: cover;
+  	background-position: center;
+  	background-size: 100%;
+}
+.slikaOglasa{
+	flex: 1;
+}
+.tekstOglasa h2{
+	margin-top: 10px;
+	text-shadow: 2px 2px black;
+}
+.dugme{
+	margin: 0px auto;
+	background-color: #A03021;
+	color: white;
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	font-weight: bold;
+}
+.dugme a{
+	color: #fff;
+	text-shadow: 2px 2px black;
+}
+.dugme p{
+	padding: 15px 0px;
+	text-shadow: 2px 2px black;
+}
+/*OGLASI KRAJ*/
+/*O NAMA*/
+#namaW{
+	width: 100%;
+	display: flex;
+	margin: 0 auto;
+}
+#oNama{
+	width: 100%;
+	height: 500px;
+	margin: 0 auto;
+	display: flex;
+	overflow: hidden;
+}
+#slikaLokala{
+	margin: 0px auto;
+    align-items: center;
+    padding: 10px 10px;
+	height: 95%;
+	flex: 1;
+}
+#opisLokala{
+	flex: 1.5;
+	padding: 30px 50px;
+	font-size: 1.2rem;
+	line-height: 1.5;
+}
+/*O NAMA KRAJ*/
+
+/*KONTAKT/FORMA*/
+#kontaktW{
+	width: 100%;
+	height: 650px;
+	margin-top: 200px;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+}
+.forma{
+	width: 100%;
+	flex: 1;
+	margin-left: 10%;
+}
+.forma h1{
+	margin: 10px;
+}
+.forma h2{
+	margin: 10px;
+}
+.forma li{
+	margin: 10px;
+}
+.forma li p{
+	margin: 10px
+}
+.forma p{
+	margin-top: 10px;
+	font-weight: bold;
+}
+input[type=text]{
+	width: 50%;
+	height: 30px;
+	border: none;
+	border-top: 3px solid lightgrey;
+	border-bottom: 3px solid lightgrey;
+	margin-top: 10px;
+}
+textarea{
+	width: 50%;
+	height: 200px;
+	margin-top: 10px;
+	border: 3px solid lightgrey;
+	resize: none;
+}
+#posalji{
+	text-align: center;
+	width: 200px;
+	height: 50px;
+	background-color: #A03021;
+	color: white;
+}
+/*KONTAKT/FORMA KRAJ*/
+
+/*GLAVNI DEO SAJTA KRAJ*/
+/*FOOTER*/
+footer{
+	width: 100%;
+}
+#footerW{
+	width: 100%;
+	display: flex;
+	margin: 0 auto;
+}
+#footerLinkovi{
+	flex: 2;
+	border-right: 1px ridge lightgrey;
+	margin: 15px 0px;
+}
+#logoF{
+	width: 400px;
+	padding: 0px 8%;
+}
+#linkovi{
+	display: flex;
+	justify-content: space-around;
+	padding: 10px 0px;
+}
+#linkovi a{
+	color: #A03021;
+}
+#footerMeni{
+	flex: 3;
+	height: 20%;
+}
+.podN{
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+.podnasloviW{
+	display: flex;
+	width: 100%;
+}
+.podM{
+	display: block;
+	flex: 1;
+}
+.podM a{
+	color: #A03021;
+}
+#cpRight{
+	width: 100%;
+	padding: 10px 0px;
+}
+#cpRight p{
+	padding: 0px 60px;
+}
+/*FOOTER KRAJ*/
+#vracanjePocetak{
+	position: fixed;
+	bottom: 10px;
+    right: 10px;
+    color: #A03021;
+    padding: 5px;
+}
+
+
+/*PROIZVODI*/
+#selectori{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	margin: 30px 0;
+	justify-content: space-around;
+}
+#prikaz{
+	display: flex;
+	font-size: 2rem;
+	height: 50px;
+}
+#proizvodDrop{
+	margin: 10px;
+	padding: 10px;
+}
+#manjePrikaz{
+	padding: 10px;
+	color: #A03021;
+}
+#vecePrikaz{
+	padding: 10px;
+	color: #A03021;
+}
+#selectori button{
+	padding: 10px;
+	color: white;
+	background-color: #A03021;
+	border-radius: 10px; 
+}
+#proizvodi{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.proizvod{
+	width: 350px;
+	height: 500px;
+	border: 1px solid #A03021;
+	border-radius: 20;
+	padding: 10px;
+	margin: 15px;
+	background-color: #fbf9f5;
+}
+.proizvod img{
+	width: 330px;
+	height: 300px;
+	display: block;
+	margin: 0 auto;
+}
+.proizvod h3{
+	text-align: center;
+	padding-top: 10px;
+	color: #A03021;
+}
+.opisP{
+	text-align: center;
+	padding-top: 10px;
+	font-size: 1.2rem;
+}
+.zvezde{
+	padding-top: 10px;
+	text-align: center;
+	color: #FCBE12;
+}
+.cenaW{
+	font-style: bold;
+	font-size: 1.5rem;
+	float: right;
+	margin-top: 30px;
+}
+/*PROIZVODI KRAJ*/
+/*AUTOR*/
+#autor{
+	width: 100%;
+}
+#autor h1{
+	text-align: center;
+	padding: 20px;
+}
+#autorW{
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	margin: 0 auto;
+}
+#autorTekst{
+	padding-top: 30px;
+}
+/*AUTOR KRAJ*/
+

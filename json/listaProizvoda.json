@@ -1,0 +1,122 @@
+[
+    {
+       "id": 1,
+       "naziv": "Rubikova kocka 2x2",
+       "slika": "images/kocka2x2.png",
+       "opis": "Rubikova kocka sa 2x2 stranama.",
+       "cena": 2500,
+       "ocena": 5,
+       "tipProizvoda": {
+          "id": 1,
+          "naziv": "Kocke"
+       }
+    },
+    {
+       "id": 2,
+       "naziv": "Rubikova kocka 3x3",
+       "slika": "images/kocka3x3.png",
+       "opis": "Rubikova kocka sa 3x3 stranama.",
+       "cena": 1500,
+       "ocena": 4,
+       "tipProizvoda": {
+          "id": 1,
+          "naziv": "Kocke"
+       }
+    },
+    {
+       "id": 3,
+       "naziv": "Rubikova kocka 4x4",
+       "slika": "images/kocka4x4.png",
+       "opis": "Rubikova kocka sa 4x4 stranama.",
+       "cena": 2000,
+       "ocena": 4,
+       "tipProizvoda": {
+          "id": 1,
+          "naziv": "Kocke"
+       }
+    },
+    {
+       "id": 4,
+       "naziv": "Slagalica 2000 delova",
+       "slika": "images/slagalica2000delova.png",
+       "opis": "Slagalica od 2000 delova",
+       "cena": 1000,
+       "ocena": 2,
+       "tipProizvoda": {
+          "id": 2,
+          "naziv": "Slagalice"
+       }
+    },
+    {
+       "id": 5,
+       "naziv": "Druga slagalica 2000 delova",
+       "slika": "images/slagalica2000delova2.png",
+       "opis": "Slagalica od 2000 delova",
+       "cena": 1200,
+       "ocena": 4,
+       "tipProizvoda": {
+          "id": 2,
+          "naziv": "Slagalice"
+       }
+    },
+    {
+       "id": 6,
+       "naziv": "Slagalica 5000 delova",
+       "slika": "images/slagalica5000delova.png",
+       "opis": "Slagalica od 5000 delova",
+       "cena": 2000,
+       "ocena": 5,
+       "tipProizvoda": {
+          "id": 2,
+          "naziv": "Slagalice"
+       }
+    },
+    {
+       "id": 7,
+       "naziv": "Drvena kocka",
+       "slika": "images/drvenaKocka.png",
+       "opis": "Drvena kocka",
+       "cena": 500,
+       "ocena": 1,
+       "tipProizvoda": {
+          "id": 3,
+          "naziv": "Drvene puzle"
+       }
+    },
+    {
+       "id": 8,
+       "naziv": "Kamera puzla",
+       "slika": "images/kameraPuzla.png",
+       "opis": "Kamera puzla",
+       "cena": 1000,
+       "ocena": 3,
+       "tipProizvoda": {
+          "id": 3,
+          "naziv": "Drvene puzle"
+       }
+    },
+    {
+       "id": 9,
+       "naziv": "Oslobadjanje prstena",
+       "slika": "images/oslobadjanjePrstena.png",
+       "opis": "Oslobadjanje prstena",
+       "cena": 1000,
+       "ocena": 3,
+       "tipProizvoda": {
+          "id": 3,
+          "naziv": "Drvene puzle"
+       }
+    },
+    {
+       "id": 10,
+       "naziv": "Rubikova kocka igračka",
+       "slika": "images/stresKocka.png",
+       "opis": "Rubikova kocka sa 2x2 stranama.",
+       "cena": 1000,
+       "ocena": 5,
+       "tipProizvoda": {
+          "id": 1,
+          "naziv": "Kocke"
+       }
+    }
+ ]
